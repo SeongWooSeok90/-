@@ -1,37 +1,35 @@
-body {
-    background-color: blueviolet;
+body {/*배경설정*/
+    background-color: rgb(129, 197, 252);
 }
-/*제목*/
-.top{
-    background-color: aqua;
+.top{/*제목설정*/
+    background-color: rgb(226, 159, 58);
     color: beige;
     text-align: center;
 }
-/*소개 글*/
-.중앙{
-    height: 460px;
+mark{/*마크설정*/
+    background-color: rgb(199, 107, 241);
 }
-mark{
-    background-color: azure;
+.중앙{/*소개글 위치 변경*/
+    text-align: left;
+    font-size: 20px;
+    border: 1px rgb(60, 11, 235); /*테두리 영역*/
+    position: relative;
+    left: 100px;
 }
-/*목차*/
 div mark{
-    background-color: brown;
-}
-.컨텐츠 mark {
-    background-color: blanchedalmond;
+    background-color: rgb(14, 214, 74);
 }
 .컨텐츠 ol {
-    background-color: coral;
+    background-color: rgb(204, 131, 107);
     width: 300px;
 }
 .컨텐츠 li {
-    background-color: darkgreen;
+    background-color: rgb(51, 150, 117);
     margin-bottom: 10px;
 }
 .컨텐츠 li:hover{
-    background-color: aquamarine;
-    color: aliceblue;
+    background-color: rgb(97, 73, 184);
+    color: rgb(2, 137, 255);
 }
 .컨텐츠 a:hover{
     color: grey;
@@ -42,17 +40,30 @@ div mark{
 .이름 table td{
     height: 50px;
     width: 100px;
-    border: 3px dotted green;
-    background-color: mintcream;
+    border: 3px dotted rgb(236, 95, 107);
+    background-color: rgb(203, 233, 95);
     text-align: center;
 }
 /*동아리 팀원*/
-
+.팀원 table td{
+    border: 1px blue;
+    border-collapse: collapse;
+}
+.팀원 td:nth-child(odd){
+    background-color: azure;
+}
 /*링크이동*/
-
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
 /*소사캠퍼스*/
 .학교 img{
     height: 250px;
     width: auto;
 
 }
+
