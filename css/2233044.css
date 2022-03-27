@@ -14,7 +14,7 @@ mark{/*마크설정*/
     font-size: 20px;
     border: 1px rgb(60, 11, 235); /*테두리 영역*/
     position: relative;
-    left: 100px;
+    left: 10px;
 }
 div mark{
     background-color: rgb(14, 214, 74);
@@ -45,11 +45,14 @@ div mark{
     text-align: center;
 }
 /*동아리 팀원*/
-.팀원 table td{
-    border: 1px blue;
+.팀원 table, td, th {
+    height: 50px;
+    width: 200px;
+    border: 3px solid rgb(124, 226, 226);
     border-collapse: collapse;
+    text-align: center;;
 }
-.팀원 td:nth-child(odd){
+.팀원 tr:nth-child(odd){
     background-color: azure;
 }
 /*링크이동*/
