@@ -62,6 +62,7 @@ a:link{
 a:hover{
     color: blueviolet;
     text-decoration: underline;
+    background-color: darksalmon;
 }
 /*소사캠퍼스*/
 .학교 img{
